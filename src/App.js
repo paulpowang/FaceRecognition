@@ -10,7 +10,7 @@ import SignIn from "./components/SignIn/SignIn";
 import Register from "./components/Register/Register";
 
 const app = new Clarifai.App({
-  apiKey: "e87c21ebd0b7478f9b42d82b5e934113",
+  apiKey: APIKey,
 });
 
 class App extends Component {
